@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.asideBG {
+  background: radial-gradient(
+      151.88% 64.7% at 0% 35.3%,
+      rgba(83, 83, 83, 0.64) 0.55%,
+      rgba(0, 0, 0, 0.64) 100%
+    )
+    #364066;
+  box-shadow: 0px 10px 17px rgba(54, 64, 102, 0.35);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.asideItem {
+  background: linear-gradient(90deg, #ffffff 0%, rgba(74, 104, 119, 0.14) 100%);
+  opacity: 0.12;
+  backdrop-filter: blur(26px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imageUser {
+  background: url("./assets/img/Ellipse2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cartUser {
+  background: linear-gradient(
+    132.25deg,
+    rgba(255, 255, 255, 0.15) -17.8%,
+    rgba(255, 255, 255, 0) 109.28%
+  );
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerItemBg {
+  background: linear-gradient(
+      0deg,
+      rgba(163, 163, 217, 0.16),
+      rgba(163, 163, 217, 0.16)
+    ),
+    #ffffff;
 }
