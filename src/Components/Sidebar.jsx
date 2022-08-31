@@ -1,4 +1,5 @@
 import "../../src/App.css";
+import Profile from "../assets/img/Ellipse2.jpg"
 
 const Sidebar = () => {
 
@@ -70,7 +71,7 @@ const Sidebar = () => {
             <div className=" h-1/2 flex  justify-center items-end pb-4">
                 <div className="w-44 h-24 flex cursor-pointer flex-col items-center justify-center cartUser rounded-lg">
                     <div className="w-40 flex items-center justify-between h-20">
-                        <div className="imageUser rounded-full w-8 h-8"></div>
+                        <img src={Profile} className="imageUser rounded-full w-8 h-8" alt="images" />
                         <div className="text-xs text-[#928EA0]">
                             <p>Matthew Perry</p>
                             <p>mathewperry@xyz.com</p>

@@ -14,13 +14,6 @@
   backdrop-filter: blur(26px);
 }
 
-.imageUser {
-  background: url("./assets/img/Ellipse2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .cartUser {
   background: linear-gradient(
     132.25deg,
